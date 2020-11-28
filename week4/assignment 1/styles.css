@@ -1,0 +1,12 @@
+body{background:red;}
+img {
+    float: left;
+    width: 10%; height: auto;
+    padding-right: 15px; padding-bottom: 18px;
+ 
+}
+.justified {
+    text-align: justify;
+}
+h1{margin-bottom: 0px;}
+nav{background-color: mintcream; padding: 10px; width: 15%}
