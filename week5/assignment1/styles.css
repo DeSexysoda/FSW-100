@@ -1,0 +1,49 @@
+body{background:lightgray;}
+#Light-Pink {
+    background-color: #F5C6D6;
+    width:100%;
+    height:50px;
+  
+    color: black;
+    padding: 0px;
+    text-align: center;
+  } 
+  #Hot-Pink {
+    background-color:#EE2E84;
+    width:100%;
+    height:50px;
+  
+    color: black;
+    padding: 0px;
+    text-align: center;
+  } 
+  
+  #Light-Blue {
+    background-color:#85CFD8;
+    width:100%;
+    height:50px;
+  
+    color: black;
+    padding: 0px;
+    text-align: center;
+  } 
+   
+#Green {
+  background-color:#8DC63F
+  ;
+  width:100%;
+  height:50px;
+
+  color: black;
+  padding: 0px;
+  text-align: center;
+} 
+#Orange {
+    background-color:#E76E34;
+    width:100%;
+    height:50px;
+  
+    color: black;
+    padding: 0px;
+    text-align: center;
+  } 
