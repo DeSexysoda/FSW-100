@@ -47,3 +47,13 @@ body{background:lightgray;}
     padding: 0px;
     text-align: center;
   } 
+  
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: yellow;
+    }
+    #Hot-Pink{width: 24.67%;display: inline-block;}
+    #Light-Blue{width: 49.75%;display: inline-block;}
+    #Green{width: 73.5%;display: inline-block;}
+    #Orange{width: 25.90%;display: inline-block;}
+  }

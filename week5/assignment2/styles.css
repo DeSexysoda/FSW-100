@@ -1,22 +1,77 @@
 body{background:violet}
-.item1 {grid-area:Header; }
-.item2 { grid-area: Sidebar; }
-.item3 { grid-area: Content; }
-.item4 { grid-area: Sidebar2; }
-.item5 { grid-area: footer; }
-.grid-container {
-    display: grid;
-    grid-template-areas:
-      'header header header header header header'
-      'sidebar content content content sidebar2 sidebar2'
-      'sidebar footer footer footer footer footer';
-    grid-gap: 10px;
+
+    .grid-container {
     background-color: tan;
     padding: 10px;
+    margin-top: 20px;
   }
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+.grid-container >div  {
+    background-color: grey;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-  }
+    margin: 10px;
+  } 
+  @media only screen and (min-width: 600px){
+     #Header {grid-area:header;}
+   #Sidebar { grid-area: sidebar; } 
+   #Content { grid-area: content; } 
+   #Sidebar2{ grid-area: sidebar2; } 
+   #Footer { grid-area: footer; } 
+  .grid-container {
+      display: grid;
+      grid-template-areas: 
+        "header header header header"
+        "sidebar content content content"
+        "sidebar2 sidebar2 sidebar2 sidebar2"
+        "footer footer footer footer ";
+  
+        grid-gap: 10px;}
+    }
+    @media only screen and (min-width: 768px){
+        .grid-container {
+            grid-template-areas: 
+              "header header header header"
+              "sidebar content content  sidebar2"
+              "footer footer footer footer "; }
+
+    }
+  #grid-container1{
+      display:grid;
+      grid-template-areas: 
+      "red red blue blue"
+      "purple teal teal teal"
+      "lime-green lime-green lime-green lime-green";
+    }
+    #Red{grid-area:red;width:100%;background-color: red;}
+    #Midnight-Blue{grid-area: blue;width: 100%;height:50px;
+        background-color: blue;}
+
+    #Purple{grid-area:purple;width:100%;background-color:purple;}
+    #Teal{grid-area: teal;width: 100%;height:50px;
+            background-color:teal;}  
+
+    #Lime-Green{grid-area: lime-green;width: 100%;height:50px;
+            background-color:limegreen;}  
+
+            
+            #grid-container2{
+                display:grid;
+                grid-template-areas: 
+                "red red red red"
+                "blue blue purple purple"
+                "blue blue teal teal";
+              }
+              #Red2{grid-area:red;
+                width:100%;
+                height:100px;
+                background-color: red;}
+
+              #Midnight-Blue2{grid-area: blue;
+                width: 100%;
+                height:200px;
+                background-color: blue;}
+          
+              #Purple2{grid-area:purple;width:100%;height:100px;background-color:purple;}
+              #Teal2{grid-area: teal;width: 100%;height:100px;
+                      background-color:teal;}       
