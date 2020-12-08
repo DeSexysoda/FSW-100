@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+body{background:lime;font-size:25px; font-family: 'East Sea Dokdo', cursive;}
+ nav{
+    overflow: hidden;
+    background-color:yellowgreen;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  } 
+  h1{color: blue; font-size: 75px;}
+
+#grid-container1 div { 
+    background-color: mediumslateblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    margin: 10px;
+}
+img{width:100%;height:auto;}
+@media only screen and (min-width:600px){
+    /* img{width:50%;height:auto;} */
+    body{background: mediumvioletred;}
+
+    #LearningStress {grid-area: learningstress;}
+    #LearningStress:hover{background-color: goldenrod;}
+
+    #MassageStressRelease {grid-area: massagestressrelease;}
+    #MassageStressRelease:hover{background-color: goldenrod;}
+
+    #MeditationBreatheRelease {grid-area: meditationbreatherelease;}
+    #MeditationBreatheRelease:hover{background-color: goldenrod;}
+
+    #RememberToHaveFUN{grid-area: remembertohavefun;}
+    #RememberToHaveFUN:hover { background-color: goldenrod;}
+
+    #Sun{grid-area: sun;}
+    #Sun:hover{background-color: goldenrod;}
+
+    #Nature{grid-area: nature;}
+    #Nature:hover{background-color: goldenrod;}
+
+
+    #grid-container{
+    display: grid;
+    grid-template-areas: 
+    "learningstress learningstress learningstress learningstress"
+    "massagestressrelease massagestressrelease massagestresslease massagestresslease"
+    "meditationbreatherelease meditationbreatherlease meditationbreatherealease meditationbreatherelease"
+    "remembertohavefun remembertohavefun remembertohavefun remembertohavefun"
+    "sun sun sun sun"
+    "nature nature nature nature";
+    grid-gap: 15px; }    
+}
+td{
+    border: 5px solid black;
+}
+a:hover {
+    color: yellowgreen;
+  }
+  @media only screen and (min-width:768px){
+ body{background-color: orangered;}
+}
